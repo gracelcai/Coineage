@@ -1,20 +1,23 @@
 body {
-	 background-color: #FFFCF9;
-	 
+	background-color: #fffcf9;
 }
 
-
-container{
+container {
 	padding: 4px;
 }
 
-
+.btn-success {
+	background-color: #487054;
+	color: white;
+}
+.col-sm-6 {
+	padding-top: 16px;
+}
 
 .box {
-        display: flex;
-        flex: 1 0 21%;
-        flex-flow: wrap;
-		margin: 5px;
-		height: 100px;
-        
-      }
+	display: flex;
+	flex: 1 0 21%;
+	flex-flow: wrap;
+	margin: 5px;
+	height: 100px;
+}
