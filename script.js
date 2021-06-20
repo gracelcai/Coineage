@@ -28,7 +28,7 @@ function checkNeedsVsWants() {
 	} else {
 		document.getElementById("starbucks-score").innerHTML = "Incorrect";
 	}
-	if (!document.getElementById("phone-need").checked) {
+	if (document.getElementById("phone-need").checked) {
 		document.getElementById("phone-score").innerHTML = "Correct";
 		score++;
 	} else {

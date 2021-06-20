@@ -1,198 +1,204 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- Latest compiled and minified CSS -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
-		<script src="../script.js" type="text/javascript"></script>
-		<script src="../script.js" type="text/javascript"></script>
-	</head>
-	<body>
-		<button class="btn" onclick="document.location='storyLineOptions.html'">
-			<i class="fa fa-home"></i> Home
-		</button>
-		<div class="container">
-			<h2>Step 1: Income and Expenses</h2>
-			<hr />
-		</div>
-		<div class="container">
-			<h4>How much do you <i>make</i> and how much do you <i>spend</i>?</h4>
-			<p>
-				Before starting your budgeting journey, it is essential to know you
-				income and expenses.
-			</p>
-			<p>
-				<b>Income: </b> Think of all the means that you get money <br /><b
-					>Expenses:
-				</b>
-				Think of all the ways you spend the money you got from your incomes
-			</p>
-			<p>
-				Help Kate identify which of her situation is an income or an expense:
-			</p>
-		</div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="../script.js" type="text/javascript"></script>
+    <script src="../script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <button class="btn" onclick="document.location='storyLineOptions.html'">
+      <i class="fa fa-home"></i> Home
+    </button>
+    <div class="container">
+      <h2>Step 1: Income and Expenses</h2>
+      <hr />
+    </div>
+    <div class="container">
+      <h4>How much do you <i>make</i> and how much do you <i>spend</i>?</h4>
+      <p>
+        Before starting your budgeting journey, it is essential to know you
+        income and expenses.
+      </p>
+      <p>
+        <b>Income: </b> Think of all the means that you get money <br /><b
+          >Expenses:
+        </b>
+        Think of all the ways you spend the money you got from your incomes
+      </p>
+      <p>
+        Help Kate identify which of her situation is an income or an expense:
+      </p>
+      <img
+        src="../assets/expenses-rafiki.png"
+        alt="animated character"
+        width="400"
+        height="400"
+      />
+    </div>
 
-		<div class="container">
-			<form action="/action_page.php">
-				<label for="type">Part-Time Job</label>
-				<select name="type" id="jobDropdown">
-					<option value="Income">Income</option>
-					<option value="Expenses">Expenses</option>
-				</select>
-				<span id="jobsContainer" style="color: red"></span>
-				<br /><br />
-			</form>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="type">Part-Time Job</label>
+        <select name="type" id="jobDropdown">
+          <option value="Income">Income</option>
+          <option value="Expenses">Expenses</option>
+        </select>
+        <span id="jobsContainer" style="color: red"></span>
+        <br /><br />
+      </form>
 
-			<form action="/action_page.php">
-				<label for="type">Allowance</label>
-				<select name="type" id="allowanceDropdown">
-					<option value="Income">Income</option>
-					<option value="Expenses">Expenses</option>
-				</select>
-				<span id="allowanceContainer" style="color: red"></span>
-				<br /><br />
-			</form>
+      <form action="/action_page.php">
+        <label for="type">Allowance</label>
+        <select name="type" id="allowanceDropdown">
+          <option value="Income">Income</option>
+          <option value="Expenses">Expenses</option>
+        </select>
+        <span id="allowanceContainer" style="color: red"></span>
+        <br /><br />
+      </form>
 
-			<form action="/action_page.php">
-				<label for="type">Eating out</label>
-				<select name="type" id="foodDropdown">
-					<option value="Income">Income</option>
-					<option value="Expenses">Expenses</option>
-				</select>
-				<span id="foodContainer" style="color: red"></span>
-				<br /><br />
-			</form>
+      <form action="/action_page.php">
+        <label for="type">Eating out</label>
+        <select name="type" id="foodDropdown">
+          <option value="Income">Income</option>
+          <option value="Expenses">Expenses</option>
+        </select>
+        <span id="foodContainer" style="color: red"></span>
+        <br /><br />
+      </form>
 
-			<form action="/action_page.php">
-				<label for="type">Buying Starbucks</label>
-				<select name="type" id="starbucksDropdown">
-					<option value="Income">Income</option>
-					<option value="Expenses">Expenses</option>
-				</select>
-				<span id="starbucksContainer" style="color: red"></span>
-				<br /><br />
-			</form>
+      <form action="/action_page.php">
+        <label for="type">Buying Starbucks</label>
+        <select name="type" id="starbucksDropdown">
+          <option value="Income">Income</option>
+          <option value="Expenses">Expenses</option>
+        </select>
+        <span id="starbucksContainer" style="color: red"></span>
+        <br /><br />
+      </form>
 
-			<form action="/action_page.php">
-				<label for="type">Going out with friends</label>
-				<select name="type" id="friendDropdown">
-					<option value="Income">Income</option>
-					<option value="Expenses">Expenses</option>
-				</select>
-				<span id="friendContainer" style="color: red"></span>
-				<br /><br />
-			</form>
+      <form action="/action_page.php">
+        <label for="type">Going out with friends</label>
+        <select name="type" id="friendDropdown">
+          <option value="Income">Income</option>
+          <option value="Expenses">Expenses</option>
+        </select>
+        <span id="friendContainer" style="color: red"></span>
+        <br /><br />
+      </form>
 
-			<form action="/action_page.php">
-				<label for="type">College supply</label>
-				<select name="type" id="tuitionDropdown">
-					<option value="Income">Income</option>
-					<option value="Expenses">Expenses</option>
-				</select>
-				<span id="resultsContainer" style="color: red"></span>
-				<br /><br />
-			</form>
-		</div>
+      <form action="/action_page.php">
+        <label for="type">College supply</label>
+        <select name="type" id="tuitionDropdown">
+          <option value="Income">Income</option>
+          <option value="Expenses">Expenses</option>
+        </select>
+        <span id="resultsContainer" style="color: red"></span>
+        <br /><br />
+      </form>
+    </div>
 
-		<div class="container">
-			<button
-				id="nextButton"
-				onclick="nextButton()"
-				type="button"
-				class="btn btn-success"
-			>
-				Check Answer
-			</button>
-			<button
-				id="nextButton"
-				onclick="document.location='needVsWant.html'"
-				type="button"
-				class="btn btn-secondary"
-			>
-				Next
-			</button>
-		</div>
+    <div class="container">
+      <button
+        id="nextButton"
+        onclick="nextButton()"
+        type="button"
+        class="btn btn-success"
+      >
+        Check Answer
+      </button>
+      <button
+        id="nextButton"
+        onclick="document.location='needVsWant.html'"
+        type="button"
+        class="btn btn-secondary"
+      >
+        Next
+      </button>
+    </div>
 
-		<!-- jQuery library -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-			crossorigin="anonymous"
-		></script>
-		<!-- Bundle library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bundle library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
-		<!-- JavaScript -->
-		<script>
-			document.getElementById("nextButton").onclick = function () {
-				//option 1
-				var vJobDropdown = document.getElementById("jobDropdown").value;
-				var vJobsContainer = document.getElementById("jobsContainer");
-				if (vJobDropdown == "Expenses") {
-					vJobsContainer.innerHTML = "Wrong!";
-				} else {
-					vJobsContainer.innerHTML = "Correct!";
-				}
+    <!-- JavaScript -->
+    <script>
+      document.getElementById("nextButton").onclick = function () {
+        //option 1
+        var vJobDropdown = document.getElementById("jobDropdown").value;
+        var vJobsContainer = document.getElementById("jobsContainer");
+        if (vJobDropdown == "Expenses") {
+          vJobsContainer.innerHTML = "Wrong!";
+        } else {
+          vJobsContainer.innerHTML = "Correct!";
+        }
 
-				//option 2
-				var vAllowanceDropdown =
-					document.getElementById("allowanceDropdown").value;
-				var allowanceContainer = document.getElementById("allowanceContainer");
-				if (vAllowanceDropdown == "Expenses") {
-					allowanceContainer.innerHTML = "Wrong!";
-				} else {
-					allowanceContainer.innerHTML = "Correct!";
-				}
+        //option 2
+        var vAllowanceDropdown =
+          document.getElementById("allowanceDropdown").value;
+        var allowanceContainer = document.getElementById("allowanceContainer");
+        if (vAllowanceDropdown == "Expenses") {
+          allowanceContainer.innerHTML = "Wrong!";
+        } else {
+          allowanceContainer.innerHTML = "Correct!";
+        }
 
-				//option 3
-				var vFoodDropdown = document.getElementById("foodDropdown").value;
-				var foodContainer = document.getElementById("foodContainer");
-				if (vFoodDropdown == "Expenses") {
-					foodContainer.innerHTML = "Correct!";
-				} else {
-					foodContainer.innerHTML = "Wrong!";
-				}
+        //option 3
+        var vFoodDropdown = document.getElementById("foodDropdown").value;
+        var foodContainer = document.getElementById("foodContainer");
+        if (vFoodDropdown == "Expenses") {
+          foodContainer.innerHTML = "Correct!";
+        } else {
+          foodContainer.innerHTML = "Wrong!";
+        }
 
-				//option 4
-				var vStarbucksDropdown =
-					document.getElementById("starbucksDropdown").value;
-				var starbucksContainer = document.getElementById("starbucksContainer");
-				if (vStarbucksDropdown == "Expenses") {
-					starbucksContainer.innerHTML = "Correct!";
-				} else {
-					starbucksContainer.innerHTML = "Wrong!";
-				}
+        //option 4
+        var vStarbucksDropdown =
+          document.getElementById("starbucksDropdown").value;
+        var starbucksContainer = document.getElementById("starbucksContainer");
+        if (vStarbucksDropdown == "Expenses") {
+          starbucksContainer.innerHTML = "Correct!";
+        } else {
+          starbucksContainer.innerHTML = "Wrong!";
+        }
 
-				//option 5
-				var vFriendDropdown = document.getElementById("friendDropdown").value;
-				var friendContainer = document.getElementById("friendContainer");
-				if (vFriendDropdown == "Expenses") {
-					friendContainer.innerHTML = "Correct!";
-				} else {
-					friendContainer.innerHTML = "Wrong!";
-				}
-				//option 6
-				var v = document.getElementById("tuitionDropdown").value;
-				var resultsCT = document.getElementById("resultsContainer");
-				if (v == "Expenses") {
-					resultsCT.innerHTML = "Correct!";
-				} else {
-					resultsCT.innerHTML = "Wrong!";
-				}
-			};
-		</script>
-	</body>
+        //option 5
+        var vFriendDropdown = document.getElementById("friendDropdown").value;
+        var friendContainer = document.getElementById("friendContainer");
+        if (vFriendDropdown == "Expenses") {
+          friendContainer.innerHTML = "Correct!";
+        } else {
+          friendContainer.innerHTML = "Wrong!";
+        }
+        //option 6
+        var v = document.getElementById("tuitionDropdown").value;
+        var resultsCT = document.getElementById("resultsContainer");
+        if (v == "Expenses") {
+          resultsCT.innerHTML = "Correct!";
+        } else {
+          resultsCT.innerHTML = "Wrong!";
+        }
+      };
+    </script>
+  </body>
 </html>
