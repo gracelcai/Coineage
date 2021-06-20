@@ -59,200 +59,285 @@
       </p>
 
       <p>For Kate, identify the following as needs or wants:</p>
-      <div class="starbucks">
-        <div class="form-check form-check-inline">
-          <p>Buying starbucks 4 times a week</p>
-        </div>
+      <table style="width: 75%">
+		<tr>
+			<th></th>
+			<th>Want</th>
+			<th>Need</th>
+		</tr>
+        <div class="starbucks">
+          <tr>
+            <td>
+              <div class="form-check form-check-inline">
+                <p>Buying starbucks 4 times a week</p>
+              </div>
+            </td>
 
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              style="vertical-align: middle; margin: 0px"
-              name="starbucks"
-              id="starbucks-want"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              style="vertical-align: middle; margin: 0px"
-              name="starbucks"
-              id="starbucks-need"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <p id="starbucks-score"></p>
-      </div>
+            <td>
+              <div class="form-check form-check-inline">
+                <div>
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    style="vertical-align: middle; margin: 0px"
+                    name="starbucks"
+                    id="starbucks-want"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </div>
+            </td>
 
-      <div class="phone">
-        <div class="form-check form-check-inline">
-          <p>A cellphone plan for calling friends and family</p>
+            <td>
+              <div class="form-check form-check-inline">
+                <div>
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    style="vertical-align: middle; margin: 0px"
+                    name="starbucks"
+                    id="starbucks-need"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </div>
+            </th>
+          </td>
+          <td>
+            <p id="starbucks-score"></p>
+          </td>
         </div>
+		
+        <div class="phone">
+			<tr>
+			  <td>
+				<div class="form-check form-check-inline">
+				  <p>A cellphone plan to call friends and family</p>
+				</div>
+			  </td>
+		
+			  <td>
+				<div class="form-check form-check-inline">
+				  <div>
+					<input
+					  class="form-check-input"
+					  type="radio"
+					  style="vertical-align: middle; margin: 0px"
+					  name="phone"
+					  id="phone-want"
+					  value=""
+					  aria-label="..."
+					/>
+				  </div>
+				</div>
+			  </td>
+		
+			  <td>
+				<div class="form-check form-check-inline">
+				  <div>
+					<input
+					  class="form-check-input"
+					  type="radio"
+					  style="vertical-align: middle; margin: 0px"
+					  name="phone"
+					  id="phone-need"
+					  value=""
+					  aria-label="..."
+					/>
+				  </div>
+				</div>
+			  </th>
+			</td>
+			<td>
+			  <p id="phone-score"></p>
+			</td>
+		  </div>
+	
 
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="phone"
-              id="phone-want"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="phone"
-              id="phone-need"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <p id="phone-score"></p>
-      </div>
+<div class="car">
+  <tr>
+	<td>
+	  <div class="form-check form-check-inline">
+		<p>A car to drive to school</p>
+	  </div>
+	</td>
 
-      <div class="car">
-        <div class="form-check form-check-inline">
-          <p>A car to drive to school</p>
-        </div>
+	<td>
+	  <div class="form-check form-check-inline">
+		<div>
+		  <input
+			class="form-check-input"
+			type="radio"
+			style="vertical-align: middle; margin: 0px"
+			name="car"
+			id="car-want"
+			value=""
+			aria-label="..."
+		  />
+		</div>
+	  </div>
+	</td>
 
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="car"
-              id="car-want"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="car"
-              id="car-need"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <p id="car-score"></p>
-      </div>
+	<td>
+	  <div class="form-check form-check-inline">
+		<div>
+		  <input
+			class="form-check-input"
+			type="radio"
+			style="vertical-align: middle; margin: 0px"
+			name="car"
+			id="car-need"
+			value=""
+			aria-label="..."
+		  />
+		</div>
+	  </div>
+	</th>
+  </td>
+  <td>
+	<p id="car-score"></p>
+  </td>
+</div>
 
-      <div class="bus">
-        <div class="form-check form-check-inline">
-          <p>Bus fare to ride the bus to school</p>
-        </div>
 
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="bus"
-              id="bus-want"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="bus"
-              id="bus-need"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <p id="bus-score"></p>
-      </div>
+        
 
-      <div class="restaurants">
-        <div class="form-check form-check-inline">
-          <p>Eating out with friends at a restaurant</p>
-        </div>
+<div class="bus">
+	<tr>
+	  <td>
+		<div class="form-check form-check-inline">
+		  <p>Bus fare to ride the bus to school</p>
+		</div>
+	  </td>
+  
+	  <td>
+		<div class="form-check form-check-inline">
+		  <div>
+			<input
+			  class="form-check-input"
+			  type="radio"
+			  style="vertical-align: middle; margin: 0px"
+			  name="bus"
+			  id="bus-want"
+			  value=""
+			  aria-label="..."
+			/>
+		  </div>
+		</div>
+	  </td>
+  
+	  <td>
+		<div class="form-check form-check-inline">
+		  <div>
+			<input
+			  class="form-check-input"
+			  type="radio"
+			  style="vertical-align: middle; margin: 0px"
+			  name="bus"
+			  id="bus-need"
+			  value=""
+			  aria-label="..."
+			/>
+		  </div>
+		</div>
+	  </th>
+	</td>
+	<td>
+	  <p id="bus-score"></p>
+	</td>
+  </div>
 
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="restaurants"
-              id="restaurants-want"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="restaurants"
-              id="restaurants-need"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <p id="restaurants-score"></p>
-      </div>
+  <div class="restaurants">
+	<tr>
+	  <td>
+		<div class="form-check form-check-inline">
+		  <p>Going out to eat with her friends at a restaurant</p>
+		</div>
+	  </td>
 
-      <div class="paint">
-        <div class="form-check form-check-inline">
-          <p>Paint supplies for arts and crafts</p>
-        </div>
+	  <td>
+		<div class="form-check form-check-inline">
+		  <div>
+			<input
+			  class="form-check-input"
+			  type="radio"
+			  style="vertical-align: middle; margin: 0px"
+			  name="restaurants"
+			  id="restaurants-want"
+			  value=""
+			  aria-label="..."
+			/>
+		  </div>
+		</div>
+	  </td>
 
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="paint"
-              id="paint-want"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
+	  <td>
+		<div class="form-check form-check-inline">
+		  <div>
+			<input
+			  class="form-check-input"
+			  type="radio"
+			  style="vertical-align: middle; margin: 0px"
+			  name="restaurants"
+			  id="restaurants-need"
+			  value=""
+			  aria-label="..."
+			/>
+		  </div>
+		</div>
+	  </th>
+	</td>
+	<td>
+	  <p id="restaurants-score"></p>
+	</td>
+  </div>
+  <div class="paint">
+	<tr>
+	  <td>
+		<div class="form-check form-check-inline">
+		  <p>Paint supplies to make arts and crafts</p>
+		</div>
+	  </td>
 
-        <div class="form-check form-check-inline">
-          <div>
-            <input
-              class="form-check-input"
-              type="radio"
-              name="paint"
-              id="paint-need"
-              value=""
-              aria-label="..."
-            />
-          </div>
-        </div>
-        <p id="paint-score"></p>
-      </div>
+	  <td>
+		<div class="form-check form-check-inline">
+		  <div>
+			<input
+			  class="form-check-input"
+			  type="radio"
+			  style="vertical-align: middle; margin: 0px"
+			  name="paint"
+			  id="paint-want"
+			  value=""
+			  aria-label="..."
+			/>
+		  </div>
+		</div>
+	  </td>
+
+	  <td>
+		<div class="form-check form-check-inline">
+		  <div>
+			<input
+			  class="form-check-input"
+			  type="radio"
+			  style="vertical-align: middle; margin: 0px"
+			  name="paint"
+			  id="paint-need"
+			  value=""
+			  aria-label="..."
+			/>
+		  </div>
+		</div>
+	  </th>
+	</td>
+	<td>
+	  <p id="paint-score"></p>
+	</td>
+  </div>
+      </table>
       <br />
 
       <button
