@@ -61,10 +61,4 @@ function checkNeedsVsWants() {
 	document.getElementById("total-score").innerHTML = "Score: " + score + "/6";
 	return score;
 }
-function checkScore() {
-	if (checkNeedsVsWants() == 6) {
-		document.location = "budgeting.html";
-	} else {
-		alert("Correct your answers before proceeding.");
-	}
-}
+
