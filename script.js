@@ -16,9 +16,9 @@ function calculate() {
 	if (monthlyImprovement > 0) {
 		document.getElementById(
 			"summary"
-		).innerHTML = `Congratulations! You helped Kate figure out her budget. She now has a monthly leftover of $${monthlyImprovement}! Thats $${
-			newExpenses - 8
-		}more savings per month!
+		).innerHTML = `Congratulations! You helped Kate figure out her budget. She now has a monthly leftover of $${monthlyImprovement}! That's $${
+			monthlyImprovement - 8
+		} more savings per month!
 		She's now on track to buy her guitar before her audition!`;
 	} else {
 		document.getElementById(
