@@ -3,14 +3,22 @@ function calculate() {
 	const diningExpense = document.getElementById("eatOut").value;
 	const socialExpense = document.getElementById("friends").value;
 	const busExpense = document.getElementById("bus").value * 5;
+	const newExpenses =
+		30 +
+		drinkExpense * 4 +
+		diningExpense * 4 +
+		socialExpense * 4 +
+		busExpense * 4;
+	const oldExpenses = 342;
 
-	const weeklySave =
-		1000 - (drinkExpense + diningExpense + socialExpense + busExpense);
+	const monthlyImprovement = oldExpenses - newExpenses;
 
-	if (weeklySave > 10) {
+	if (monthlyImprovement > 0) {
 		document.getElementById(
 			"summary"
-		).innerHTML = `Congratulations! You helped Kate figure out her budget. She has been able to save $${weeklySave} more per week! 
+		).innerHTML = `Congratulations! You helped Kate figure out her budget. She now has a monthly leftover of $${monthlyImprovement}! Thats $${
+			newExpenses - 8
+		}more savings per month!
 		She's now on track to buy her guitar before her audition!`;
 	} else {
 		document.getElementById(
@@ -61,4 +69,3 @@ function checkNeedsVsWants() {
 	document.getElementById("total-score").innerHTML = "Score: " + score + "/6";
 	return score;
 }
-
