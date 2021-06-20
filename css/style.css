@@ -1,0 +1,20 @@
+body {
+	 background-color: #FFFCF9;
+	 
+}
+
+
+container{
+	padding: 4px;
+}
+
+
+
+.box {
+        display: flex;
+        flex: 1 0 21%;
+        flex-flow: wrap;
+		margin: 5px;
+		height: 100px;
+        
+      }
