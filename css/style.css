@@ -2,8 +2,8 @@ body {
 	background-color: #fffcf9;
 }
 
-container {
-	padding: 4px;
+.container {
+	padding: 8px;
 }
 
 .btn-success {
@@ -12,6 +12,11 @@ container {
 }
 .col-sm-6 {
 	padding-top: 16px;
+}
+.card {
+	padding: 8px;
+	margin-bottom: 16px;
+	box-shadow: 10px 10px 5px grey;
 }
 
 .box {
